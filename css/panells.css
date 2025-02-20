@@ -385,8 +385,6 @@ input[type="file"] {
     width: 2rem;
 }
 
-/* PANELL PROFESSOR */
-
 /* PANELL ADMIN */
 .container-botons-professor {
     display: grid;
@@ -494,3 +492,4 @@ input[type="file"] {
     display: grid;
     grid-area: botons;
 }
+
