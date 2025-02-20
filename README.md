@@ -6,4 +6,4 @@ El fitxer `login.html` és l'inici de l'aplicació.
 
 ## Link a Figma
 
-[Accedeix al disseny a Figma aquí](https://www.figma.com/design/AbbLGR7m8D0US5f17vUZkl/Prototype-Alba?t=X03MgWyUZG1bXzKO-1)
+[Accedeix al disseny a Figma aquí](https://www.figma.com/design/cDD95UXehdiKGFPaw26klW/Proyecte-Final-Alba?t=X03MgWyUZG1bXzKO-1)
