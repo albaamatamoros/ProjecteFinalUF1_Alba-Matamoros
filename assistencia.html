@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/panells.css">
+    <title>Llistat grups</title>
+</head>
+<body>
+    <div class="container-secundari">
+        <!-- NAVBAR -->
+        <nav>
+            <div class="nav-bar">
+                <div class="bloc-icones-nav-other">
+                    <a href="panellProfessor.html">
+                        <img src="svg/house-fill.svg">
+                    </a>
+                    <a href="cercaAssistencia.html">
+                        <img src="svg/reply-fill.svg">
+                    </a>
+                </div>
+                <div>
+                </div>
+                <div class="bloc-usuari-nav">
+                    <p class="inter-bold">Professor</p>
+                    <a href="login.html">
+                        <div class="bloc-inici">
+                            <img src="svg/door-open-fill.svg">
+                        </div>
+                    </a>
+                </div>          
+            </div>
+        </nav>
+        <!-- PAGINA -->
+
+        <div class="container-llistat-grups">            
+            <div class="container-titol-assitencia">
+                <h1 class="josefin-regular">GRUP DAW 2</h1>
+                <h2 class="josefin-regular">M09 - Disseny d'interfícies web.</h2>
+            </div>
+
+            <div class="asistencia-container">
+                <img src="svg/calendar-check-fill-verde.svg" alt="Assistencia">
+                <p class="josefin-regular">Assitencia</p>
+                <img src="svg/calendar-x-fill-rojo.svg" alt="No asistencia">
+                <p class="josefin-regular">No asssitencia</p>
+                <img src="svg/calendar-minus-fill-amarillo.svg" alt="Retard">
+                <p class="josefin-regular">Retard</p>
+                <img src="svg/calendar-plus-fill-azul.svg" alt="Falta justificada">
+                <p class="josefin-regular">Falta justificada</p>
+            </div>
+
+            <table>
+                <tr>
+                    <th>NOM</th>
+                    <th>COGNOMS</th>
+                    <th>FALTES</th>
+                    <th>ACCIONS</th>
+                </tr>
+                <tr>
+                    <td>Alba</td>
+                    <td>Matamoros Morales</td>
+                    <td>0%</td>
+                    <td>
+                        <img class="asistencia" src="svg/calendar-check-fill.svg" data-hover="svg/calendar-check-fill-hover.svg" alt="Assistencia">
+                        <img class="no-asistencia" src="svg/calendar-x-fill.svg" data-hover="svg/calendar-x-fill-hover.svg" alt="No asistencia">
+                        <img class="retard" src="svg/calendar-minus-fill.svg" data-hover="svg/calendar-minus-fill-hover.svg" alt="Retard">
+                        <img class="falta-justificada" src="svg/calendar-plus-fill.svg" data-hover="svg/calendar-plus-fill-hover.svg" alt="Falta justificada">
+                    </td>                                    
+                </tr>
+                <tr>
+                    <td>Pau</td>
+                    <td>Muñoz Serra</td>
+                    <td>30%</td>
+                    <td>
+                        <img src="svg/calendar-check-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-x-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-minus-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-plus-fill.svg" alt="Assistencia">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marcos</td>
+                    <td>López Medina</td>
+                    <td>5%</td>
+                    <td>
+                        <img src="svg/calendar-check-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-x-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-minus-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-plus-fill.svg" alt="Assistencia">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td>Alvarez Caballero</td>
+                    <td>10%</td>
+                    <td>
+                        <img src="svg/calendar-check-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-x-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-minus-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-plus-fill.svg" alt="Assistencia">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>Sánchez Martín</td>
+                    <td>20%</td>
+                    <td>
+                        <img src="svg/calendar-check-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-x-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-minus-fill.svg" alt="Assistencia">
+                        <img src="svg/calendar-plus-fill.svg" alt="Assistencia">
+                    </td>
+                </tr>
+            </table>
+            <!-- PAGINACION -->
+            <div class="pagination">
+                <button class="page-btn">&lt;</button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">&gt;</button>
+            </div>
+        </div>
+
+        <!-- LOGO -->
+        <div class="logo-ins">
+            <img src="img/logo-institut-sapalomera.png">
+        </div>
+    </div>
+</body>
+</html>

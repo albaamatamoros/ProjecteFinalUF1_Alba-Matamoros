@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/panells.css">
+    <title>Llistat grups</title>
+</head>
+<body>
+    <div class="container-secundari">
+        <!-- NAVBAR -->
+        <nav>
+            <div class="nav-bar">
+                <div class="bloc-icones-nav-other">
+                    <a href="panellAdmin.html">
+                        <img src="svg/house-fill.svg">
+                    </a>
+                    <a href="panellAdmin.html">
+                        <img src="svg/reply-fill.svg">
+                    </a>
+                </div>
+                <div>
+                </div>
+                <div class="bloc-usuari-nav">
+                    <p class="inter-bold">Admin</p>
+                    <a href="login.html">
+                        <div class="bloc-inici">
+                            <img src="svg/door-open-fill.svg">
+                        </div>
+                    </a>
+                </div>          
+            </div>
+        </nav>
+        <!-- PAGINA -->
+
+        <div class="container-llistat-grups">
+            <div class="container-titol">
+                <h1 class="josefin-regular">LLISTAT PROFESSORS</h1>
+                <label class="crear-grup">
+                    <img src="svg/plus-square-fill.svg" alt="Add">
+                    <input type="file" accept=".json" required>
+                </label>
+            </div>
+            <table>
+                <tr>
+                    <th>NOM</th>
+                    <th>COGNOMS</th>
+                    <th>ACCIONS</th>
+                </tr>
+                <tr>
+                    <td>Alba</td>
+                    <td>Matamoros Morales</td>
+                    <td>
+                        <img src="svg/trash-fill.svg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pau</td>
+                    <td>Muñoz Serra</td>
+                    <td>
+                        <img src="svg/trash-fill.svg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marcos</td>
+                    <td>Lópex Medina</td>
+                    <td>
+                        <img src="svg/trash-fill.svg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td>Alvarez Caballero</td>
+                    <td>
+                        <img src="svg/trash-fill.svg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>Sánchez Martín</td>
+                    <td>
+                        <img src="svg/trash-fill.svg">
+                    </td>
+                </tr>
+            </table>
+            <!-- PAGINACION -->
+            <div class="pagination">
+                <button class="page-btn">&lt;</button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">&gt;</button>
+            </div>
+        </div>
+
+
+        <!-- LOGO -->
+        <div class="logo-ins">
+            <img src="img/logo-institut-sapalomera.png">
+        </div>
+    </div>
+</body>
+</html>

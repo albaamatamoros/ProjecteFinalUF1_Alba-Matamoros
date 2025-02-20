@@ -1,0 +1,96 @@
+/* ASSISTENCIA */
+
+.container-titol-assitencia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-titol-assitencia h2 {
+    font-size: 20px;
+}
+
+.asistencia-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    gap: 0.6rem;
+}
+
+.asistencia-container img {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* HOVERS */
+
+/* Ajuste general para imágenes dentro de la tabla */
+table img {
+    width: 40px;
+    height: auto;
+    transition: filter 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container-llistat-assitencia {
+    display: flex;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+table {
+    width: 30rem;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid var(--color_negro);
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--color_verde_medio);
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background: var(--color_verde_seco);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+tbody tr:nth-child(odd) {
+    background: #DAD9D9;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.asistencia:hover { /* Verde #7F996B */
+    filter: invert(63%) sepia(18%) saturate(500%) hue-rotate(50deg) brightness(90%);
+}
+
+.no-asistencia:hover { /* Rojo #A45050 */
+    filter: invert(35%) sepia(55%) saturate(500%) hue-rotate(0deg) brightness(90%);
+}
+
+.retard:hover { /* Amarillo #B7AA60 */
+    filter: invert(80%) sepia(30%) saturate(400%) hue-rotate(40deg) brightness(90%);
+}
+
+.falta-justificada:hover { /* Azul #7CA8AF */
+    filter: invert(52%) sepia(20%) saturate(300%) hue-rotate(140deg) brightness(90%);
+}

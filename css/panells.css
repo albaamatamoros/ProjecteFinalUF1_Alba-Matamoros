@@ -1,0 +1,496 @@
+/* ----------------------------- */
+/* VISTAS */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* PANELL ADMIN */
+.container-botons-admin {
+    display: grid;
+    grid-template-areas: 
+        "boto1 boto2"
+        "boto3 boto4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    flex-direction: column;
+    gap: 3px;
+    width: 420px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: stretch;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+
+.container-boto1 {
+    grid-area: boto1;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--color_verde_medio);
+    justify-items: center;
+    align-content: center;
+}
+
+.container-boto2 {
+    grid-area: boto2;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--color_verde_medio);
+    justify-items: center;
+    align-content: center;
+}
+
+.container-boto3 {
+    grid-area: boto3;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--color_verde_medio);
+    justify-items: center;
+    align-content: center;
+}
+
+.container-boto4 {
+    grid-area: boto4;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--color_verde_medio);
+    justify-items: center;
+    align-content: center;
+}
+
+.container-botons-admin img {
+    width: 10rem;
+    height: 8rem;
+    border-radius: 14px;
+    margin-bottom: 0.5rem;
+}
+
+/* PANELL ALUMNE */
+
+/* PANELL PROFESSOR */
+
+/* CREAR GRUPS */
+
+.container-crear-grups {
+    display: flex;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.container-crear-grups form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+}
+
+.container-crear-grups label {
+    font-weight: bold;
+}
+
+.container-crear-grups input {
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 16px;
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container-crear-grups input[type="button"] {
+    background-color: var(--color_verde_medio);
+    color:var(--color_negro);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    width: 8rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-crear-grups h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* LLISTAT GRUPS */
+
+.container-llistat-grups {
+    display: flex;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+table {
+    width: 30rem;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid var(--color_negro);
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--color_verde_medio);
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background: var(--color_verde_seco);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+tbody tr:nth-child(odd) {
+    background: #DAD9D9;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-titol {
+    display: flex;
+    align-items: center;
+}
+
+.container-titol h1 {
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+.crear-grup {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container-llistat-grups img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-btn {
+    background: var(--color_verde_medio);
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 15px;
+}
+
+/* CREAR PROJECTES */
+
+.container-crear-projectes {
+    display: flex;
+    width: 25rem;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.container-crear-projectes form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+}
+
+.container-crear-projectes label {
+    font-weight: bold;
+}
+
+.container-crear-projectes input, select {
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 16px;
+    width: 70%;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.container-crear-projectes input[type="button"] {
+    background-color: var(--color_verde_medio);
+    color:var(--color_negro);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    width: 8rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-crear-projectes h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* LLISTAT PROFESSORS I ALUMNES */
+
+input[type="file"] {
+    display: none;
+}
+
+/* LES TEVES CLASSES */
+
+.container-llistat-classes {
+    display: flex;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.container-llistat-classes img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.container-llistat-classes h1 {
+    font-size: 25px;
+}
+
+/* ASSISTENCIA */
+
+.container-titol-assitencia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-titol-assitencia h2 {
+    font-size: 20px;
+}
+
+.asistencia-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    gap: 0.6rem;
+}
+
+.asistencia-container img {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* CERCA ASSISTENCIA */
+
+.container-llistat-cerca {
+    display: flex;
+    width: 40rem;
+    height: 32rem;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.inputs-group {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+.inputs-group label {
+    margin-top: 10px;
+}
+
+.inputs-group input {
+    border-radius: 7px;
+    width: 12rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.boto-crear-netejar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boto-crear-netejar input[type="button"] {
+    display: inline-block;
+    background-color: var(--color_verde_medio);
+    color: var(--color_negro);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 8rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.container-llistat-cerca table img {
+    width: 2rem;
+}
+
+/* PANELL PROFESSOR */
+
+/* PANELL ADMIN */
+.container-botons-professor {
+    display: grid;
+    grid-template-areas: 
+        "boto1 boto2 boto3";
+    gap: 25px;
+    width: 40rem;
+    height: 250px;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: stretch;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+
+.container-boto1-profe {
+    grid-area: boto1;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--color_verde_medio);
+    justify-items: center;
+    align-content: center;
+}
+
+.container-boto2-profe {
+    grid-area: boto2;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--color_verde_medio);
+    justify-items: center;
+    align-content: center;
+}
+
+.container-boto3-profe {
+    grid-area: boto3;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--color_verde_medio);
+    justify-items: center;
+    align-content: center;
+}
+
+.container-botons-professor img {
+    width: 10rem;
+    height: 8rem;
+    border-radius: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.container-panell-noticies {
+    display: grid;
+    grid-template-areas:
+        "noticies"
+        "botons";
+    grid-template-columns: auto;
+    gap: 10px;
+    width: 40rem;
+    height: 200px;
+    border-radius: 20px;
+    background-color: var(--color_blanco);
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+
+.container-noticies {
+    display: grid;
+    grid-area: noticies;
+    border-radius: 20px;
+    background-color: var(--color_verde_seco);
+    gap: 10px;
+    width: 37rem;
+    height: 7rem;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.container-noticies p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container-noticies h1 {
+    font-size: 20px;
+    color: brown;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container-botons {
+    display: grid;
+    grid-area: botons;
+}

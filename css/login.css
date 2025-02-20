@@ -1,0 +1,45 @@
+.container-general {
+    display: grid;
+    place-items: center;
+    height: 97vh;
+    margin: 10px;
+}
+
+.container-login {
+    display: grid;
+    grid-template-areas: "imatge login";;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    gap: 3px;
+    width: 70rem;
+    height: 40rem;
+    border-radius: 80px;
+    background-image: url('../img/institut_sa_palomera_cover_svg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-benvinguts {
+    display: grid;
+    grid-area: login;
+    justify-items: center;
+    font-size: 40px;
+    text-align: center;
+    align-items: end;
+}
+
+.gmail-login {
+    display: grid;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 100px;
+    background-color: var(--color_blanco);
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 85px;
+}
+
+.gmail-login img{
+    width: 7rem;
+    height: 7rem;
+}

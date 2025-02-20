@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/panells.css">
+    <title>Llistat grups</title>
+</head>
+<body>
+    <div class="container-secundari">
+        <!-- NAVBAR -->
+        <nav>
+            <div class="nav-bar">
+                <div class="bloc-icones-nav-other">
+                    <a href="panellAdmin.html">
+                        <img src="svg/house-fill.svg">
+                    </a>
+                    <a href="llistatProjectes.html">
+                        <img src="svg/reply-fill.svg">
+                    </a>
+                </div>
+                <div>
+                </div>
+                <div class="bloc-usuari-nav">
+                    <p class="inter-bold">Admin</p>
+                    <a href="login.html">
+                        <div class="bloc-inici">
+                            <img src="svg/door-open-fill.svg">
+                        </div>
+                    </a>
+                </div>          
+            </div>
+        </nav>
+        <!-- PAGINA -->
+
+        <div class="container-crear-projectes">
+            <h1 class="josefin-regular" >CREAR PROJECTE</h1>
+            <form method="get" action="llistatProjectes.html">
+                <label for="nomProjecte" class="josefin-regular">NOM DEL GRUP</label>
+                <input type="text" id="nomProjecte" name="nomProjecte" value="2025-02-20" required>
+                
+                <label for="grup" class="josefin-regular">GRUP CLASSE</label>
+                <select id="grup" name="grup" required>
+                    <option value="" disabled selected>Selecciona un grup classe...</option>
+                    <option value="grupo1">DAW 1</option>
+                    <option value="grupo2">DAW 2</option>
+                    <option value="grupo3">SMX GRUP A</option>
+                    <option value="grupo4">ASIX 1</option>
+                </select>
+
+                <label for="dataInici" class="josefin-regular">DATA INICI</label>
+                <input type="data" id="dataInici" name="dataInici" required>
+                
+                <label for="dataFi" class="josefin-regular">DATA FI</label>
+                <input type="data" id="dataFi" name="dataFi" required>
+
+                <input type="button" value="CREAR">
+            </form>
+        </div>
+
+        <!-- LOGO -->
+        <div class="logo-ins">
+            <img src="img/logo-institut-sapalomera.png">
+        </div>
+    </div>
+</body>
+</html>
